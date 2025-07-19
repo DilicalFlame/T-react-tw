@@ -16,3 +16,9 @@ git clone https://github.com/DilicalFlame/T-react-tw.git .
 ```bash
 pnpm install
 ```
+3. Delete the `.git` folder:
+```bash
+rm -rf .git # in Linux or MacOS
+Remove-Item -Recurse -Force .git # in Windows PowerShell
+rmdir /s .git # in Windows Command Prompt
+```
